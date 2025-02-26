@@ -1,6 +1,7 @@
-.vscode
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
+**/__pycache__/**
+*.pyc
+.mypy_cache
+.coverage
+htmlcov
+.cache
+.venv
