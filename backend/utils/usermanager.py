@@ -12,7 +12,7 @@ from fastapi_users_db_beanie import BeanieUserDatabase, ObjectIDIDMixin
 from icecream import ic
 
 from backend.config import settings
-from backend.schemas.models import User
+from backend.schemas.models.user import User
 
 SECRET = settings.SECRET_KEY
 
