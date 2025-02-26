@@ -1,5 +1,4 @@
-**# RowdyFullstack**  
-**Fullstack Application Template**  
+** FastRowdy**  
 *Modern Web Development Blueprint for Python & TypeScript*  
 
 ---
