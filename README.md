@@ -14,13 +14,6 @@
 
 #### [Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)  
 
-### 💡 **Рекомендации по Разработке**  
-- Для локальной разработки без Docker:  
-  ```bash
-  # Backend
-  cd backend && fastapi dev
-  ```
-
 - **Env-переменные**:  
   ```env
   # .env.backend
