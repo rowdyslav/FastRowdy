@@ -4,9 +4,8 @@ from fastapi import APIRouter  # , Form, Request, status
 
 # from fastapi.responses import RedirectResponse
 from icecream import ic
-
-from backend.misc.usermanager import auth_backend, fastapi_users
-from backend.schemas.models import User, UserCreate  # , UserLog, UserReg
+from misc.usermanager import auth_backend, fastapi_users
+from schemas.models import User, UserCreate  # , UserLog, UserReg
 
 router = APIRouter(prefix="/auth", tags=["Auth"])
 

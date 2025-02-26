@@ -1,9 +1,8 @@
 from fastapi import APIRouter, Depends
+from misc.email.funcs import generate_test_email, send_email
+from misc.usermanager import current_user
 from pydantic.networks import EmailStr
 from schemas.models import Message
-
-from backend.misc.email.funcs import generate_test_email, send_email
-from backend.misc.usermanager import current_user
 
 router = APIRouter(prefix="/utils", tags=["utils"])
 

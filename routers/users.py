@@ -1,6 +1,7 @@
 import uuid
 from typing import Any
 
+from app.config import settings
 from app.models import (
     Item,
     Message,
@@ -16,8 +17,6 @@ from app.models import (
 from app.utils import generate_new_account_email, send_email
 from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import col, delete, func, select
-
-from backend.app.config import settings
 
 router = APIRouter(prefix="/users", tags=["users"])
 

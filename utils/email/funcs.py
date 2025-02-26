@@ -7,7 +7,7 @@ from typing import Any
 import emails  # type: ignore
 from jinja2 import Template
 
-from backend.config import settings
+from config import settings
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

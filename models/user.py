@@ -12,7 +12,7 @@ from beanie import Link, PydanticObjectId
 from fastapi_users_db_beanie import BeanieBaseUserDocument
 from pydantic import EmailStr, Field
 
-from backend.models.item import Item
+from models.item import Item
 
 
 class UserBase(BeanieBaseUserDocument):
