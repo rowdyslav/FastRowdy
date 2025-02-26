@@ -14,8 +14,7 @@
 #### **Frontend** (TypeScript)  
 ▸ **Framework**: [React](https://react.dev/) (v18+)  
 
-#### **Контейнеризация** (Docker)  
-[Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)  
+#### **Контейнеризация** [Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/)  
 
 ### 💡 **Рекомендации по Разработке**  
 - Для локальной разработки без Docker:  
