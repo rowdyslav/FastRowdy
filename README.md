@@ -1,6 +1,6 @@
-**FastRowdy**  
-**Backend Template**  
-*Modern API Development Blueprint with FastAPI + MongoDB*  
+# **FastRowdy**  
+## **Backend Template**  
+### *Modern API Development Blueprint with FastAPI + MongoDB*  
 
 ---
 
@@ -10,20 +10,6 @@
 ▸ **ODM**: [Beanie](https://roman-right.github.io/beanie/)
 ▸ **Аутентификация**: [FastAPI Users](https://fastapi-users.github.io/fastapi-users/)  
 ▸ **Контейнеризация**: [Docker](https://www.docker.com/) + [Compose](https://docs.docker.com/compose/) 
-
----
-
-### ⚡ **Быстрый Старт**  
-1. Клонировать и настроить окружение:  
-```bash
-git clone https://github.com/your-account/fastrowdy.git
-cd fastrowdy
-cp .env.example .env
-```
-2. Запустить через Docker Compose:  
-```bash
-docker-compose -f docker/compose.yml up --build
-```
 
 ---
 
